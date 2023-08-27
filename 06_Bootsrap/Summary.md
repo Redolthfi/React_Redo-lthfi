@@ -1,4 +1,5 @@
-#Responsif Desain: Bootstrap sangat dikenal karena kemampuannya dalam menghasilkan desain responsif. Ini berarti situs web yang dikembangkan dengan Bootstrap akan beradaptasi dengan baik di berbagai perangkat dan ukuran layar, seperti komputer desktop, tablet, dan ponsel pintar.
+#BOOTSTRAP
+Responsif Desain: Bootstrap sangat dikenal karena kemampuannya dalam menghasilkan desain responsif. Ini berarti situs web yang dikembangkan dengan Bootstrap akan beradaptasi dengan baik di berbagai perangkat dan ukuran layar, seperti komputer desktop, tablet, dan ponsel pintar.
 
 Grid System: Bootstrap menyediakan sistem grid yang kuat yang memungkinkan tata letak yang fleksibel dan responsif. Ini memungkinkan pengembang untuk dengan mudah mengatur elemen-elemen di dalam grid yang terbagi dalam kolom-kolom yang dapat disesuaikan.
 
