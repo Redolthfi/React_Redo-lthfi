@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataStructures</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+<body>
+<div>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <form id="Myform" action="">
+        <label for="name">Product Name :</label><br>
+        <input type="text" id="ProductName" class="forms" onchange="Limit()"><br><br>
+        <div id="notif-1"></div>
+        <label for="category">Product Category :</label><br>
+        <select name="category" id="category">
+            <option value="AAAAA">AAAAA</option>
+            <option value="BBBB">BBBB</option>
+            <option value="CCCCC">CCCCC</option>
+        </select><br><br>
+
+        <!-- -------- -->
+        <label for="">Product Freshness :</label><br>
+        <input type="radio" id="1" class="forms" name="product-fras" value="Brand New">
+        <label for="1">Brand New</label><br>
+        <input type="radio" id="2" class="forms" name="product-fras" value="Second Hank">
+        <label for="2">Second Hank</label><br>
+        <input type="radio" id="3" class="forms" name="product-fras" value="Refurbished">
+        <label for="3">Refurbished</label><br><br>  
+        
+        <!-- -------------- -->
+        <label for="">Image of product</label>  
+        <input type="file" id="fileProduct" class="forms"><br><br>
+        <label for="">Additional Description</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br> 
+        <label for="">Product Price</label><br>
+        <input type="number" name="" id="price" class="forms" placeholder="100$" min="0" max="100"><br><br>
+        <button id="submit" type="submit" value="submit">Submit</button>
+    </form>
+
+    <div class="container">
+        <h1 class="text-center">List Product</h1>
+        <table class="table table-striped " id="productTable">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Product Name</th>
+              <th scope="col">Image of Product</th>
+              <th scope="col">Product Freshness</th>
+              <th scope="col">Additional Desciption</th>
+              <th scope="col">Product Price</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+        <div>
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Cari..." aria-label="Search">
+                  </div>
+                  <div>
+                      <button class="btn btn-danger" type="button">Delete</button>
+                      <button class="btn btn-primary" type="submit">Search</button>
+                  </div>
+            </div>
+      </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html> 

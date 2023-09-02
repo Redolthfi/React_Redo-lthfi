@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateProduct</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+<div>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <form id="Myform" action="">
+        <label for="name">Product Name :</label><br>
+        <input type="text" id="Product Name" onchange="Limit()"><br><br>
+        <div id="notif-1"></div>
+        <label for="category">Product Category :</label><br>
+        <select name="category" id="category">
+            <option value="AAAAA">AAAAA</option>
+            <option value="BBBB">BBBB</option>
+            <option value="CCCCC">CCCCC</option>
+        </select><br><br>
+
+        <!-- -------- -->
+        <label for="">Product Freshness :</label><br>
+        <input type="radio" id="1" name="product-fras" value="Brand New">
+        <label for="1">Brand New</label><br>
+        <input type="radio" id="2" name="product-fras" value="Second Hank">
+        <label for="2">Second Hank</label><br>
+        <input type="radio" id="3" name="product-fras" value="Refurbished">
+        <label for="3">Refurbished</label><br><br>  
+        
+        <!-- -------------- -->
+        <label for="">Image of product</label>  
+        <input type="file" id="file product"><br><br>
+        <label for="">Additional Description</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br> 
+        <label for="">Product Price</label><br>
+        <input type="number" name="" id="price" placeholder="100$" min="0" max="100"><br><br>
+
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</div>
+<script src="Javascript.js"></script>
+</body>
+</html> 
