@@ -1,0 +1,6 @@
+1. Virtual DOM adalah konsep yang digunakan dalam pengembangan aplikasi web, terutama pada kerangka kerja JavaScript seperti React. VDOM adalah representasi virtual dari struktur DOM aktual yang ada di halaman web, dan ini membantu dalam meningkatkan kinerja dan efisiensi pembaharuan UI.
+2. Event handling adalah proses mengelola interaksi pengguna dengan elemen-elemen dalam aplikasi atau halaman web.
+3. React Hooks adalah fitur yang diperkenalkan dalam React untuk mengelola state dan lifecycle dalam komponen berbasis fungsi.
+4. React Routing adalah komponen kunci dalam pengembangan aplikasi web React yang lebih besar. Ini memungkinkan navigasi antara berbagai halaman atau tampilan dalam aplikasi 
+5. Global state management adalah konsep dalam pengembangan aplikasi yang melibatkan pengelolaan data atau state yang dapat diakses oleh berbagai bagian dari aplikasi tanpa harus melewati data melalui banyak tingkat komponen.
+6. Data Fetching Mengambil data dari sumber eksternal seperti API atau server adalah tugas umum dalam pengembangan aplikasi
