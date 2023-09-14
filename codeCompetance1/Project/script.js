@@ -1,4 +1,3 @@
-    
 const forms = document.getElementById('myForm');
 const firstName = document.getElementById('fname');
 const lastName = document.getElementById('lname');
