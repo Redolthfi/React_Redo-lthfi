@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
 
-function RadioInput() {
+const RadioInput = () => {
 
 
   return (

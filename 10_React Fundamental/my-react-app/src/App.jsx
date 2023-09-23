@@ -1,21 +1,19 @@
-import React from 'react'
-import Navbar from './components/Layout/navbar'
-import TitleLayouts from './components/Layout/TitleLayouts'
-import AuthLayouts from './components/Layout/AuthLayouts'
-import TableLayouts from './components/Layout/TableLayouts'
-import ButtonList from './components/Elements/Button/ButtonList'
-function App() {  
+import React from "react"
+import Navbar from "./Component/Navbar";
+import MainForm from "./Layout/MainForm";
+import TabelLayout from "./Layout/TabelLayout";
+import TittleTabel from "./Layout/TittleTabel";
+import MainTabel from "./Layout/MainTabel";
+function App() {
+
   return (
-    <div>
+    <>
       <Navbar />
-      <TitleLayouts title="Create Product"/>
-      <AuthLayouts title="Detail Product"/>
-      <TableLayouts title="List Product"></TableLayouts>   
-      <ButtonList /> 
-    </div>
-    
- 
+      <MainForm></MainForm>
+      <TittleTabel tittle="List Product"></TittleTabel>
+      <MainTabel></MainTabel>
+    </>
   )
 }
 
-export default App
+export default App;

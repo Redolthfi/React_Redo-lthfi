@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
 
-function SelectInput() {
+const SelectInput = () => {
 
 
   return (
