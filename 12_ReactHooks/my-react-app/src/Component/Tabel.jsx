@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { v4 as uuidv4 } from "uuid"; // Import UUID
+import { v4 as uuidv4 } from "uuid"; 
 const Tabel = () => {
   const [data, setData] = useState([]);
   const [newData, setNewData] = useState({
@@ -17,21 +17,18 @@ const Tabel = () => {
       [name]: value,
     });
   };
+  
 
   const handleAdd = () => {
-    // Buat nomor acak yang unik
     const uniqueNo = uuidv4();
 
-    // Buat objek data baru dengan nomor unik
     const newDataItem = {
       no: uniqueNo,
       ...newData,
     };
 
-    // Tambahkan data baru ke state
     setData([...data, newDataItem]);
 
-    // Reset input form
     setNewData({
       no: "",
       productName: "",
@@ -42,11 +39,9 @@ const Tabel = () => {
   };
 
   const handleDelete = (no) => {
-    // Tampilkan konfirmasi penghapusan
     const confirmDelete = window.confirm("Apakah Anda yakin ingin menghapus data ini?");
 
     if (confirmDelete) {
-      // Hapus data dari state berdasarkan nomor
       const newData = data.filter((item) => item.no !== no);
       setData(newData);
     }
