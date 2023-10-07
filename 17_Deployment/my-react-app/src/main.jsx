@@ -7,7 +7,7 @@ import CreateProductPages from './Pages/CreateProductPages.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/LandingPages",
+    path: "/",
     element: <LandingPages />,
   },
   {
