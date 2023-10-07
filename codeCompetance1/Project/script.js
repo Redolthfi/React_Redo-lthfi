@@ -3,7 +3,7 @@ const firstName = document.getElementById('fname');
 const lastName = document.getElementById('lname');
 const emailInput = document.getElementById('email');
 const textarea = document.getElementById('message');
-    
+
     function data(){
         forms.addEventListener('submit', (event) => {
             event.preventDefault();
