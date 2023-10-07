@@ -1,9 +1,8 @@
-#REACT ROUTER
-Router dalam React.js adalah komponen yang digunakan untuk mengelola tampilan (tampilan yang ditampilkan ke pengguna) berdasarkan URL atau alamat yang diakses. Router memungkinkan Anda untuk membuat aplikasi web dengan navigasi yang dinamis, di mana setiap URL dapat menampilkan tampilan yang berbeda tanpa perlu memuat ulang seluruh halaman. Berikut adalah beberapa poin penting tentang router dalam React.js:
+#DEPLOYMENT
+1. Membangun Aplikasi: Sebelum melakukan deployment, perlu membangun aplikasi. Ini dapat dilakukan dengan perintah npm run build, yang akan menghasilkan versi produksi dari aplikasi dalam direktori build.
 
-1. React Router: React Router adalah pustaka yang paling umum digunakan untuk mengelola routing dalam aplikasi React. Ini menyediakan komponen-komponen khusus untuk mengatur tampilan berdasarkan URL.
+2. Pilih Platform Deployment: Pilih platform atau layanan yang sesuai untuk deployment aplikasi React. Beberapa pilihan populer termasuk Vercel, Netlify, AWS Amplify, GitHub Pages, dan lainnya.
 
-2. Komponen Router: BrowserRouter adalah komponen utama yang digunakan untuk membungkus seluruh aplikasi. Ini menyediakan konteks yang diperlukan untuk routing.
+3. Konfigurasi Deployment: Setiap platform memiliki cara konfigurasi yang berbeda, tetapi biasanya perlu menghubungkan repositori Git dan mengonfigurasi pengaturan deployment seperti lingkungan produksi, domain kustom, dan lainnya.
 
-3. Route: Komponen Route digunakan untuk menentukan bagaimana komponen harus ditampilkan berdasarkan URL tertentu. Anda menentukan path (alamat URL) dan komponen yang harus ditampilkan jika URL cocok dengan path tersebut.
-
+4. Deploy Aplikasi: Setelah konfigurasi selesai, dapat melakukan deployment aplikasi dengan cara mengunggah versi produksi dari proyek ke platform yang pilih.
