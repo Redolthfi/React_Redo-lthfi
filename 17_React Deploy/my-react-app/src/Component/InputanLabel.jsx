@@ -3,7 +3,7 @@ import Input from "./Input";
 import Label from "./Label";
 
 const AllInput = (props) => {
-    const { type, placeholder, name, label, maxLength,  onChange, accept } = props;
+    const { type, placeholder, name, label, maxLength,  onChange } = props;
 
     return (
         <div className="mb-4">
@@ -14,7 +14,6 @@ const AllInput = (props) => {
                 placeholder={placeholder}
                 maxLength={maxLength}
                 onChange={onChange}
-                accept={accept}
             />
         </div>
     )

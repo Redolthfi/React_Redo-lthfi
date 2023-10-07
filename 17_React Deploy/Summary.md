@@ -1,17 +1,9 @@
-#BASIC TESTING
+#REACT ROUTER
+Router dalam React.js adalah komponen yang digunakan untuk mengelola tampilan (tampilan yang ditampilkan ke pengguna) berdasarkan URL atau alamat yang diakses. Router memungkinkan Anda untuk membuat aplikasi web dengan navigasi yang dinamis, di mana setiap URL dapat menampilkan tampilan yang berbeda tanpa perlu memuat ulang seluruh halaman. Berikut adalah beberapa poin penting tentang router dalam React.js:
 
-1. Setting Awal (Setup):
-Pastikan proyek Anda memiliki dependensi yang diperlukan, seperti ViTest dan perpustakaan pengujian terkait lainnya.
-Konfigurasikan proyek Anda, termasuk file vite.config.js, jika Anda menggunakan Vite.
+1. React Router: React Router adalah pustaka yang paling umum digunakan untuk mengelola routing dalam aplikasi React. Ini menyediakan komponen-komponen khusus untuk mengatur tampilan berdasarkan URL.
 
-2. Pilih Perpustakaan Pengujian:
-Ada beberapa perpustakaan pengujian yang dapat gunakan bersama dengan ViTest, seperti React Testing Library atau tes kustom sendiri. 
+2. Komponen Router: BrowserRouter adalah komponen utama yang digunakan untuk membungkus seluruh aplikasi. Ini menyediakan konteks yang diperlukan untuk routing.
 
-3. Testing Component:
-Fokus pada pengujian komponen individual. Pastikan setiap komponen dapat diuji dengan baik,
+3. Route: Komponen Route digunakan untuk menentukan bagaimana komponen harus ditampilkan berdasarkan URL tertentu. Anda menentukan path (alamat URL) dan komponen yang harus ditampilkan jika URL cocok dengan path tersebut.
 
-4. Config Test:
-Pastikan mengonfigurasi pengujian dengan baik, misalnya menggunakan jsdom untuk simulasi DOM dalam pengujian.
-
-5. Menggunakan screen atau render:
-Di ViTest, Anda dapat menggunakan screen atau render dari perpustakaan pengujian yang digunakan (seperti React Testing Library) untuk mengakses elemen-elemen DOM dan melakukan tindakan seperti pengujian atau simulasikan peristiwa.
