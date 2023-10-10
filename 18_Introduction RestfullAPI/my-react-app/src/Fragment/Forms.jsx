@@ -38,43 +38,22 @@ const dispatch = useDispatch();
   }
 
 
-  const handleAdd = async (e) => {
-    e.preventDefault();
-    const uniqueNo = uuidv4();
-  
-    if (!productImage) {
-      alert("Pilih gambar produk terlebih dahulu.");
-      return;
-    } else if (newData.productFreshness === "") {
-      alert("Pilih Freshness terlebih dahulu.");
-      return;
-    }
-  
-    const postData = {
-      no: uniqueNo,
-      ...newData,
-      productImage: productImage ? productImage.name : "",
-    };
-  
+  const handleAdd = () => {
     try {
-      const response = await axios.post("https://6522e736f43b1793841509a0.mockapi.io/api/v1/product", postData);
-  
-      console.log("Response:", response.data);
-  
-      setData([...data, postData]);
-  
-      setNewData({
-        productName: "",
-        productCategory: "",
-        productFreshness: "",
-        productPrice: "",
-      });
-      setProductImage(null);
-      alert("Data produk tersimpan.");
+      axios.get("https://6522e736f43b1793841509a0.mockapi.io/api/v1/products")
+        .then((response) => {
+          console.log("Response:", response.data);
+          setData(response.data);
+          setProductImage(null); // Menghapus gambar produk yang telah dipilih
+        })  
+        .catch((error) => {
+          console.error("Error:", error);
+        });
     } catch (error) {
       console.error("Error:", error);
     }
   };
+  
   
   
 
