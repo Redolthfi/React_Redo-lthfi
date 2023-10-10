@@ -1,4 +1,4 @@
-#INTRODUCTION REACT
+#RESTFULL API
 1. Penggunaan Axios dalam React: Axios digunakan untuk mengirim permintaan HTTP ke REST API dari aplikasi React.
 
 2. Menggunakan Axios untuk Permintaan POST: Axios digunakan untuk mengirim permintaan POST ke REST API untuk menambahkan data produk baru ke dalam database.
