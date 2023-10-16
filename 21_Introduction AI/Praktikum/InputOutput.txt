@@ -1,0 +1,14 @@
+Input:You will provided with a text and your task is to create a list of interview question
+
+
+User:Create a list of 8 questions for an interview with a science fiction author.
+
+
+Assistant:1. What initially sparked your interest in writing science fiction? 
+2. How do you come up with ideas for your stories? Do you draw inspiration from real-world science or is it purely imagination?
+3. Science fiction often explores themes and ideas about the future of humanity. What messages or ideas do you hope readers take away from your work?
+4. Can you tell us about your writing process? Do you meticulously plan and outline your stories or do you prefer a more spontaneous approach?
+5. Science fiction often addresses societal issues through the lens of futuristic worlds. How do you incorporate social commentary into your stories?
+6. How important is scientific accuracy in your writing? Do you feel a responsibility to present scientifically plausible concepts or do you prioritize storytelling over scientific accuracy?
+7. Science fiction has the power to imagine and explore possibilities beyond our current understanding. How do you balance creating believable worlds with pushing the boundaries of imagination?
+8. Can you share any upcoming projects or ideas you are currently working on? What can readers expect from your future works?

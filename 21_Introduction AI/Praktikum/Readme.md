@@ -1,0 +1,1 @@
+Link Gdocs INTRO AI: https://docs.google.com/document/d/1mlB8D71yFugFMLaiwlbirI7oN7szfh-OeYUSG_MwNDA/edit?hl=id
