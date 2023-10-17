@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+
+.list li a{
+    font-weight: 600;
+    color: white;
+
+}
+
+.list li a:hover{
+    color: purple;
+    
+}
+
+.custom-bg{
+    background-color: #E8FFCE;
+}
+
+.text-user{
+    display: flex;
+    width: max-content;
+}
+
+.c-vh{
+    height: 40vh;
+}
